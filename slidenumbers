@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideNumbers - Play Free Number Puzzle Game Online | slidenumbers.online</title>
+    <meta name="description" content="Play SlideNumbers, the ultimate number puzzle game online. Challenge your logic skills with this addictive sliding number game. Free to play on PC and mobile devices.">
+    <meta name="keywords" content="slidenumbers, slide numbers, number puzzle, puzzle game, brain game, logic game, online game">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="slidenumbers.online">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://slidenumbers.online/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://slidenumbers.online/">
+    <meta property="og:title" content="SlideNumbers - Play Free Number Puzzle Game Online">
+    <meta property="og:description" content="Challenge your mind with SlideNumbers, the ultimate sliding number puzzle game. Play free online on any device.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://slidenumbers.online/">
+    <meta property="twitter:title" content="SlideNumbers - Play Free Number Puzzle Game Online">
+    <meta property="twitter:description" content="Challenge your mind with SlideNumbers, the ultimate sliding number puzzle game. Play free online on any device.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-light-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-green': '#34C759',
+                        'apple-purple': '#AF52DE'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .game-container {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 122, 255, 0.1);
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 122, 255, 0.15);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #007AFF, #AF52DE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-apple-light-gray font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-apple-blue to-apple-purple rounded-xl flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">SN</span>
+                    </div>
+                    <h1 class="text-2xl font-bold gradient-text">SlideNumbers</h1>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#game" class="text-apple-gray hover:text-apple-blue transition-colors">Play Game</a>
+                    <a href="#about" class="text-apple-gray hover:text-apple-blue transition-colors">About</a>
+                    <a href="#features" class="text-apple-gray hover:text-apple-blue transition-colors">Features</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-bold text-apple-dark mb-6">
+                Master the Ultimate <span class="gradient-text">Number Puzzle</span>
+            </h1>
+            <p class="text-xl text-apple-gray max-w-2xl mx-auto leading-relaxed">
+                Challenge your mind with SlideNumbers, the addictive sliding number puzzle that tests your logic and strategic thinking skills.
+            </p>
+        </div>
+
+        <!-- Game Container -->
+        <div id="game" class="game-container p-6 mb-16">
+            <div class="text-center mb-6">
+                <h2 class="text-2xl font-bold text-apple-dark mb-2">Play SlideNumbers Online</h2>
+                <p class="text-apple-gray">Arrange the numbers in the correct order by sliding tiles into the empty space</p>
+            </div>
+            
+            <div class="relative w-full" style="padding-bottom: 56.25%; height: 0;">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                    class="absolute top-0 left-0 w-full h-full rounded-lg border-0"
+                    allowfullscreen
+                    loading="lazy"
+                    title="SlideNumbers Online Game">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
+            <h2 class="text-3xl font-bold text-apple-dark mb-6">About SlideNumbers</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-apple-gray text-lg leading-relaxed mb-6">
+                        SlideNumbers is a classic sliding puzzle game that challenges players to arrange numbered tiles in sequential order. 
+                        This timeless puzzle game has been entertaining and educating players for generations, combining simple mechanics with 
+                        increasingly complex challenges.
+                    </p>
+                    <p class="text-apple-gray text-lg leading-relaxed">
+                        Perfect for all ages, SlideNumbers helps improve problem-solving skills, spatial reasoning, and logical thinking. 
+                        Whether you're looking for a quick mental exercise or a longer puzzle-solving session, this game adapts to your pace.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="text-center p-4 bg-apple-light-gray rounded-xl">
+                        <div class="text-3xl font-bold text-apple-blue mb-2">∞</div>
+                        <div class="text-sm text-apple-gray font-medium">Endless Levels</div>
+                    </div>
+                    <div class="text-center p-4 bg-apple-light-gray rounded-xl">
+                        <div class="text-3xl font-bold text-apple-green mb-2">📱</div>
+                        <div class="text-sm text-apple-gray font-medium">Mobile Friendly</div>
+                    </div>
+                    <div class="text-center p-4 bg-apple-light-gray rounded-xl">
+                        <div class="text-3xl font-bold text-apple-purple mb-2">🧠</div>
+                        <div class="text-sm text-apple-gray font-medium">Brain Training</div>
+                    </div>
+                    <div class="text-center p-4 bg-apple-light-gray rounded-xl">
+                        <div class="text-3xl font-bold text-apple-blue mb-2">🆓</div>
+                        <div class="text-sm text-apple-gray font-medium">Completely Free</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-apple-dark text-center mb-12">Why Choose SlideNumbers?</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="feature-card rounded-2xl p-6">
+                <div class="w-12 h-12 bg-apple-blue rounded-xl flex items-center justify-center mb-4">
+                    <span class="text-white text-xl">🎯</span>
+                </div>
+                <h3 class="text-xl font-bold text-apple-dark mb-3">Strategic Gameplay</h3>
+                <p class="text-apple-gray">Every move matters. Plan your strategy carefully to solve puzzles with the minimum number of moves.</p>
+            </div>
+            
+            <div class="feature-card rounded-2xl p-6">
+                <div class="w-12 h-12 bg-apple-green rounded-xl flex items-center justify-center mb-4">
+                    <span class="text-white text-xl">⚡</span>
+                </div>
+                <h3 class="text-xl font-bold text-apple-dark mb-3">Instant Play</h3>
+                <p class="text-apple-gray">No downloads required. Jump straight into the game and start playing immediately on any device.</p>
+            </div>
+            
+            <div class="feature-card rounded-2xl p-6">
+                <div class="w-12 h-12 bg-apple-purple rounded-xl flex items-center justify-center mb-4">
+                    <span class="text-white text-xl">📊</span>
+                </div>
+                <h3 class="text-xl font-bold text-apple-dark mb-3">Progress Tracking</h3>
+                <p class="text-apple-gray">Monitor your improvement with detailed statistics and challenge yourself to beat your best times.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section class="max-w-6xl mx-auto px-4 py-16">
+        <div class="bg-gradient-to-br from-apple-blue to-apple-purple rounded-2xl p-8 md:p-12 text-white">
+            <h2 class="text-3xl font-bold mb-8 text-center">How to Play SlideNumbers</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Game Rules</h3>
+                    <ul class="space-y-3 text-white/90">
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">1.</span>
+                            <span>The puzzle consists of numbered tiles and one empty space</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">2.</span>
+                            <span>Click or tap tiles adjacent to the empty space to slide them</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">3.</span>
+                            <span>Arrange all numbers in sequential order from 1 to complete the puzzle</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">4.</span>
+                            <span>Try to solve each puzzle in the fewest moves possible</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Pro Tips</h3>
+                    <ul class="space-y-3 text-white/90">
+                        <li class="flex items-start">
+                            <span class="text-yellow-300 mr-2">💡</span>
+                            <span>Start by positioning the top row correctly</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-yellow-300 mr-2">💡</span>
+                            <span>Work systematically from top to bottom</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-yellow-300 mr-2">💡</span>
+                            <span>Don't rush - take time to plan your moves</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-yellow-300 mr-2">💡</span>
+                            <span>Practice regularly to improve your solving speed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 mt-16">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-8 h-8 bg-gradient-to-br from-apple-blue to-apple-purple rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-sm">SN</span>
+                        </div>
+                        <span class="text-xl font-bold gradient-text">SlideNumbers</span>
+                    </div>
+                    <p class="text-apple-gray">
+                        The ultimate online destination for number puzzle enthusiasts. Challenge your mind and improve your problem-solving skills.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-apple-dark mb-4">Game Info</h4>
+                    <ul class="space-y-2 text-apple-gray">
+                        <li>Free to Play</li>
+                        <li>No Registration Required</li>
+                        <li>Mobile & Desktop Compatible</li>
+                        <li>Instant Loading</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-apple-dark mb-4">Benefits</h4>
+                    <ul class="space-y-2 text-apple-gray">
+                        <li>Improve Logic Skills</li>
+                        <li>Enhance Problem Solving</li>
+                        <li>Boost Concentration</li>
+                        <li>Mental Exercise</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-100 pt-8 mt-8 text-center">
+                <p class="text-apple-gray">
+                    © 2025 slidenumbers.online. All rights reserved. | 
+                    <a href="#" class="hover:text-apple-blue transition-colors">Privacy Policy</a> | 
+                    <a href="#" class="hover:text-apple-blue transition-colors">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "SlideNumbers",
+        "description": "Challenge your mind with SlideNumbers, the ultimate sliding number puzzle game. Play free online on any device.",
+        "url": "https://slidenumbers.online/",
+        "gamePlatform": ["Web Browser", "Mobile", "Desktop"],
+        "genre": "Puzzle",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1250"
+        }
+    }
+    </script>
+</body>
+</html>
